@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact - Iranga Dinushi Hettiarachchi</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        header img {
+            border-radius: 50%;
+            margin-top: 15px;
+            width: 150px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 12px;
+            font-weight: bold;
+        }
+
+        section {
+            max-width: 600px;
+            margin: 30px auto;
+            padding: 25px;
+            background-color: white;
+            text-align: center;
+        }
+
+        .button-group {
+            margin-top: 25px;
+            text-align: center;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #333;
+            color: white;
+            padding: 12px 20px;
+            margin: 8px 5px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        .btn:hover {
+            background-color: #555;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 12px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="about.html">About</a> |
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <h1>Iranga Dinushi Hettiarachchi</h1>
+    <p>Teacher | Writer | Lifelong Learner</p>
+    <img src="profile.jpg" alt="Iranga Dinushi Hettiarachchi">
+</header>
+
+<section>
+    <h2>Contact Me</h2>
+    <p>Email: <strong>irangahettiarachchi@yahoo.com</strong></p>
+    <p>Feel free to reach out for teaching inquiries, collaboration, or portfolio questions.</p>
+
+    <div class="button-group">
+        <a href="index.html" class="btn">Home</a>
+        <a href="about.html" class="btn">About Me</a>
+        <a href="mailto:irangahettiarachchi@yahoo.com" class="btn">Email Me</a>
+        <a href="Iranga_CV.pdf" class="btn" download>Download CV</a>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Iranga Dinushi Hettiarachchi</p>
+</footer>
+
+</body>
+</html>
